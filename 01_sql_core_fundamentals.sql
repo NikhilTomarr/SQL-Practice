@@ -153,10 +153,10 @@ ALTER TABLE account RENAME TO account_details;
 -- Create New Table for DML Queries
 CREATE TABLE Customer (
 id INTEGER PRIMARY KEY,
-cname VARCHAR(225),
-Address VARCHAR(225),
+cname VARCHAR(255),
+Address VARCHAR(255),
 Gender CHAR(2),
-City VARCHAR(225),
+City VARCHAR(255),
 Pin INTEGER
 );
 
